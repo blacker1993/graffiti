@@ -1,5 +1,6 @@
 console.log(process.env)
 console.log(process.argv)
+process.exit(1)
 
 // it's not possible to pass linker args to rustc from either
 // rust code, Cargo.toml nor .cargo/config because of various
